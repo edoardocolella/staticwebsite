@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Edoardo Colella</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleDesktop.css">
+    <link rel="stylesheet" href="styleMobile.css">
+
 </head>
 
 <body>
     <script defer src="app.js"></script>
 
-    <div class="hidden " style="min-height: 100vh; -items: center;">
-        <div style="display: flex;
-        place-items: center;
-        justify-content: center;">
+    <div class="hidden header ">
+        <div class="navbar">
             <a class="hidden sfum padding top" href="#about">About me</a>
             <a class="hidden sfum padding top" href="#education">Education</a>
             <a class="hidden sfum padding top" href="#experiences">Experiences</a>
@@ -23,18 +23,18 @@
             <a class="hidden sfum padding top" href="#skills">Skills</a>
             <a class="hidden sfum padding top" href="#contacts">Contacts</a>
         </div>
-        <div style="display: grid; place-items: center; align-content: center; padding-top:80px;">
-            <h1 class="hidden sfum" style="font-size: 60pt; margin-bottom: 20px;">Edoardo Colella</h1>
-            <h2 class="hidden sfum" style="text-align: left;">Software Engineer</h2>
+        <div class="headerText">
+            <h1 class="hidden sfum" >Edoardo Colella</h1>
+            <h2 class="hidden sfum" >Software Engineer</h2>
         </div>
     </div>
 
     <section >
         <h2 class="hidden">About me</h2>
         <a id="about"></a>
-        <div class="flex">
+        <div class="flex rightflex">
         <div class="col hidden left">
-            <img src="images/edoardocolella.jpg" class="images">
+            <img src="images/edoardocolella.jpg" >
         </div>
         <div class="col hidden padding sfum left">
             <p class="sfum">Hi, I'm Edoardo Colella. I was born in Avellino on October 5,
@@ -51,20 +51,20 @@
     <section>
         <a id="education"></a>
         <h2 class="hidden sfum padding">Education</h2>
-        <div class="flex">
-            <div class="hidden padding col right" style="justify-content: left;">
-                <h3 class="sfum" style="margin-bottom: 3px;">Master of Science in Computer Engineering</h3>
+        <div class="flex leftflex">
+            <div class="hidden padding col right justifyleft" >
+                <h3 class="sfum margin3" >Master of Science in Computer Engineering</h3>
                 <p class="sfum nomargin">Polytechnic of Turin</p>
                 <p class="sfum nomargin">2022 - in progress</p>
-                <h3 class="sfum" style="margin-bottom: 3px;">Bachelor of Science in Computer Engineering</h3>
+                <h3 class="sfum margin3" >Bachelor of Science in Computer Engineering</h3>
                 <p class="sfum nomargin">Polytechnic of Turin</p>
                 <p class="sfum nomargin">2018 - 2022</p>
-                <h3 class="sfum" style="margin-bottom: 3px;">Scientific High School diploma</h3>
+                <h3 class="sfum margin3" >Scientific High School diploma</h3>
                 <p class="sfum nomargin">Liceo Scientifico G.Rummo (Benevento)</p>
                 <p class="sfum nomargin">2014 - 2018</p>
             </div>
             <div class="hidden col right">
-                <img src="images/education.jpg" class="images">
+                <img src="images/education.jpg" >
             </div>
         </div>
     </section>
@@ -72,11 +72,11 @@
     <section>
         <a id="experiences"></a>
         <h2 class="hidden sfum">Experiences</h2>
-        <div class="flex">
+        <div class="flex rightflex">
             <div class="hidden col padding left">
-                <img src="images/experiences1.png" class="images">
+                <img src="images/experiences1.png" >
             </div>
-            <div class="padding hidden col left" style="justify-content: left;">
+            <div class="padding hidden col left justifyleft" >
                 <h3 class="sfum">Mu Nu chapter of Eta Kappa Nu</h3>
                 <p class="sfum">President</p>
                 <p class="sfum nomargin">2022 - in progress
@@ -92,8 +92,8 @@
         </div>
     </section>
 
-    <section class="flex">
-        <div class="padding col hidden right" style="padding-left: 20vw; padding-right: 10vw;">
+    <section class="flex rightflex">
+        <div class="padding col hidden right teaching">
             <h3 class="sfum">Polytechnic of Turin</h3>
 
             <p class="sfum bold">Teaching assistant</p>
@@ -109,7 +109,7 @@
             <p class="sfum nomargin">2023 - in progress</p>
         </div>
         <div class="hidden col padding right">
-            <img src="images/experiences2.jpg" class="images">
+            <img src="images/experiences2.jpg">
         </div>
         </div>
 
@@ -153,8 +153,8 @@
     <section>
         <a id="skills"></a>
         <h2 class="hidden">Skills</h2>
-        <div class="flex">
-        <div class="padding col hidden right" style="justify-content: left;">
+        <div class="flex leftflex">
+        <div class="padding col hidden right justifyleft">
             <p class="sfum nomargin">Knowledge of algorithms and data structures in C language</p>
             <p class="sfum nomargin">Mastery of the object-oriented programming paradigm in the Java language</p>
             <p class="sfum nomargin"> Knowledge of UNIX-like operating systems</p>
@@ -163,17 +163,15 @@
             <p class="sfum nomargin">Basic knowledge of Docker and Kubernetes</p>
         </div>
         <div class="hidden col padding right">
-            <img src="images/skills1.jpg" class="images">
+            <img src="images/skills1.jpg" >
         </div>
     </div>
     </section>
 
-    <div style="display: grid;
-    place-items: center;
-    align-content: center;">
+    <div class="contacts">
         <a id="contacts"></a>
         <h2 class="hidden ">Contacts</h2>
-        <div class="logos">
+        <div class="flex ">
             <div class="logo hidden col left">
                 <a href="mailto:edoardocolella.it@gmail.com">
                     <img src="images/logo_email.png" class="icon">
