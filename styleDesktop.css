@@ -5,9 +5,16 @@
     height: 100vh;
 }
 
+.secHeader{
+    height: 6vh;
+    padding: 3vh;
+    margin: 0;
+    vertical-align: top;
+    text-align: center;
+ }
+
 section {
     scroll-snap-align: start;
-    display: grid;
     place-items: center;
     align-content: center;
     height: 100vh;
