@@ -13,34 +13,39 @@
 
 <body>
     <script defer src="app.js"></script>
+    <div class="containSnap">
+        <section>
+        <div class="hidden header">
 
-    <div class="hidden header ">
-        <div class="navbar">
-            <a class="hidden sfum padding topTranslate" href="#about">About me</a>
-            <a class="hidden sfum padding topTranslate" href="#education">Education</a>
-            <a class="hidden sfum padding topTranslate" href="#experiences">Experiences</a>
-            <a class="hidden sfum padding topTranslate" href="#projects">Projects</a>
-            <a class="hidden sfum padding topTranslate" href="#skills">Skills</a>
-            <a class="hidden sfum padding topTranslate" href="#contacts">Contacts</a>
-        </div>
-        <div class="headerText">
-            <h1 class="hidden sfum" >Edoardo Colella</h1>
-            <h2 class="hidden sfum" >Software Engineer</h2>
-        </div>
-    </div>
+            <div class="navbar">
+                <a class="hidden sfum padding col topTranslate" href="#about">About me</a>
+                <a class="hidden sfum padding col topTranslate" href="#education">Education</a>
+                <a class="hidden sfum padding col topTranslate" href="#experiences">Experiences</a>
+                <a class="hidden sfum padding col topTranslate" href="#projects">Projects</a>
+                <a class="hidden sfum padding col topTranslate" href="#skills">Skills</a>
+                <a class="hidden sfum padding col topTranslate" href="#contacts">Contacts</a>
+            </div>
 
-    <section >
+            <div class="headerText">
+                <h1 class="hidden sfum">Edoardo Colella</h1>
+                <h2 class="hidden sfum">Software Engineer</h2>
+            </div>
+
+        </div>
+    </section>
+    <section>
         <h2 class="hidden">About me</h2>
         <a id="about"></a>
         <div class="flex rightflex">
-        <div class="col hidden leftTranslate column">
-            <img src="images/edoardocolella.jpg" >
+            <div class="col hidden leftTranslate column">
+                <img src="images/edoardocolella.jpg">
+            </div>
+            <div id="aboutme" class="col hidden sfum leftTranslate column text">Hi, I'm Edoardo Colella.
+                I was born in Avellino on October 5, 1999 and I lived up to my 18 years in the province of Benevento.
+                From 2018 I attended the Computer Engineering course at the Polytechnic of Turin and in March 2022 I
+                obtained my three-year degree.
+                So I enrolled in the Computer Engineering course (Software path), which I still attend.</div>
         </div>
-        <div id="aboutme" class="col hidden sfum leftTranslate column text">Hi, I'm Edoardo Colella.
-            I was born in Avellino on October 5, 1999 and I lived up to my 18 years in the province of Benevento.
-            From 2018 I attended the Computer Engineering course at the Polytechnic of Turin and in March 2022 I obtained my three-year degree.
-            So I enrolled in the Computer Engineering course (Software path), which I still attend.</div>
-    </div>
     </section>
 
     <section>
@@ -48,30 +53,30 @@
         <h2 class="hidden sfum ">Education</h2>
         <div class="flex leftflex">
             <div id="education" class="hidden rightTranslate column sfum text">
-                    <b>Master of Science in Computer Engineering</b>
-                    Polytechnic of Turin
-                    2022 - in progress
-                    <b>Bachelor of Science in Computer Engineering</b>
-                    Polytechnic of Turin
-                    2018 - 2022
-                    <b>Scientific High School diploma</b>
-                    Liceo Scientifico G.Rummo (Benevento)
-                    2014 - 2018
+                <b>Master of Science in Computer Engineering</b>
+                Polytechnic of Turin
+                2022 - in progress
+                <b>Bachelor of Science in Computer Engineering</b>
+                Polytechnic of Turin
+                2018 - 2022
+                <b>Scientific High School diploma</b>
+                Liceo Scientifico G.Rummo (Benevento)
+                2014 - 2018
             </div>
             <div class="hidden rightTranslate column">
-                <img src="images/education.jpg" >
+                <img src="images/education.jpg">
             </div>
         </div>
     </section>
 
     <section>
-        <a id="experiences"></a>
-        <h2 class="hidden sfum ">Experiences</h2>
+        <a id="experiences" style="margin-top: 5vh;"></a>
+        <h2 class="hidden sfum">Experiences</h2>
         <div class="flex rightflex">
             <div class="hidden leftTranslate column">
-                <img src="images/experiences1.jpg" >
+                <img src="images/experiences1.jpg">
             </div>
-            <div id="experiences1"class="hidden leftTranslate column text sfum" >
+            <div id="experiences1" class="hidden leftTranslate column text sfum">
                 <h4 class="nomargin">Mu Nu chapter of Eta Kappa Nu</h4>
                 <b>President</b>
                 2022 - in progress
@@ -81,76 +86,74 @@
 
                 <b>Co-manager for the website></b>
                 2021 - 2022
-                I managed both the technical side and the 
+                I managed both the technical side and the
                 content side of the pages of www.hknpolito.org
             </div>
         </div>
     </section>
 
-    <section class="flex leftflex">
-        <div id="experiences2"class=" column hidden rightTranslate text">
+    <section>
+        <div class="flex leftflex">
+        <div id="experiences2" class=" column hidden rightTranslate text">
             <h4 class="nomargin">Polytechnic of Turin</h3>
-            <b>Teaching assistant</b>
-            Object Oriented Programming Course
-            2023 - in progress
-            <b>Teaching assistant</b>
-            Computer Science Course
-            2023 - in progress
-            <b>Teaching assistant</b>
-            Politics and Technique Course
-            2023 - in progress
+                <b>Teaching assistant</b>
+                Object Oriented Programming Course
+                2023 - in progress
+                <b>Teaching assistant</b>
+                Computer Science Course
+                2023 - in progress
+                <b>Teaching assistant</b>
+                Politics and Technique Course
+                2023 - in progress
         </div>
         <div class="hidden column rightTranslate">
             <img src="images/experiences2.jpg">
         </div>
-        </div>
-
-
+    </div>
     </section>
-
 
     <section>
         <a id="projects"></a>
         <h2 class="hidden">Projects</h2>
         <div class="cards">
-        <div class="card hidden leftTranslate">
-            <a href="https://github.com/edoardocolella/LiveArtVR" target="_blank">
-            <div class="container">
-              <h4><b>LiveArtVr</b></h4>
-              <p>Unity - C#</p>
+            <div class="card hidden leftTranslate">
+                <a href="https://github.com/edoardocolella/LiveArtVR" target="_blank">
+                    <div class="container">
+                        <h4><b>LiveArtVr</b></h4>
+                        <p>Unity - C#</p>
+                    </div>
+                </a>
             </div>
-            </a>
-          </div>
-          <div class="card hidden col leftTranslate">
-            <a href="https://github.com/Polito-SE2-Team14/HikeTracker" target="_blank">
-            <div class="container">
-              <h4><b>HikeFIVE!</b></h4>
-              <p>Javascript - React - Express</p>
+            <div class="card hidden col leftTranslate">
+                <a href="https://github.com/Polito-SE2-Team14/HikeTracker" target="_blank">
+                    <div class="container">
+                        <h4><b>HikeFIVE!</b></h4>
+                        <p>Javascript - React - Express</p>
+                    </div>
+                </a>
             </div>
-            </a>
-          </div>
-          <div class="card hidden col leftTranslate">
-            <a href="https://github.com/edoardocolella/ezwh" target="_blank">
-            <div class="container">
-              <h4><b>EZWH</b></h4>
-              <p>Javascript - Express</p>
+            <div class="card hidden col leftTranslate">
+                <a href="https://github.com/edoardocolella/ezwh" target="_blank">
+                    <div class="container">
+                        <h4><b>EZWH</b></h4>
+                        <p>Javascript - Express</p>
+                    </div>
+                </a>
             </div>
-            </a>
-          </div>
-          <div class="card hidden col leftTranslate">
-            <a href="https://github.com/edoardocolella/studyplan" target="_blank">
-            <div class="container">
-              <h4><b>StudyPlan</b></h4>
-              <p>Javascript - Express - React</p>
+            <div class="card hidden col leftTranslate">
+                <a href="https://github.com/edoardocolella/studyplan" target="_blank">
+                    <div class="container">
+                        <h4><b>StudyPlan</b></h4>
+                        <p>Javascript - Express - React</p>
+                    </div>
+                </a>
             </div>
-            </a>
-          </div>
-          <div class="card hidden col leftTranslate">
-            <div class="container">
-              <h4><b>SportTime</b></h4>
-              <p>Android - Kotlin</p>
+            <div class="card hidden col leftTranslate">
+                <div class="container">
+                    <h4><b>SportTime</b></h4>
+                    <p>Android - Kotlin</p>
+                </div>
             </div>
-          </div>
         </div>
     </section>
 
@@ -158,22 +161,22 @@
         <a id="skills"></a>
         <h2 class="hidden">Skills</h2>
         <div class="flex leftflex">
-        <div id="skills" class=" column hidden rightTranslate text">
-            Knowledge of algorithms and data structures in C language
-            Mastery of the object-oriented programming paradigm in the Java language
-            Knowledge of UNIX-like operating systems
-            Mastery of E-R model and SQL language
-            Knowledge of React, Next and Express for web development
-            Basic knowledge of Docker and Kubernetes
+            <div id="skills" class=" column hidden rightTranslate text">
+                Knowledge of algorithms and data structures in C language
+                Mastery of the object-oriented programming paradigm in the Java language
+                Knowledge of UNIX-like operating systems
+                Mastery of E-R model and SQL language
+                Knowledge of React, Next and Express for web development
+                Basic knowledge of Docker and Kubernetes
+            </div>
+            <div class="hidden column  rightTranslate">
+                <img src="images/skills1.jpg">
+            </div>
         </div>
-        <div class="hidden column  rightTranslate">
-            <img src="images/skills1.jpg" >
-        </div>
-    </div>
     </section>
 
-    <div class="contacts">
-        <a id="contacts"></a>
+    <section>
+    <a id="contacts"></a>
         <h2 class="hidden ">Contacts</h2>
         <div class="flex ">
             <div class="logo hidden col leftTranslate">
@@ -201,9 +204,12 @@
             </div>
         </div>
 
-        <p class="hidden sfum bottomTranslate">
-            This website does not collect any personal data - © 2023 Copyright: edoardocolella.it
+        <p class="hidden sfum bottomTranslate text padding" style="text-align: center;">
+            This website does not collect personal data
+            © 2023 Copyright: edoardocolella.it
         </p>
+
+    </section>
 
     </div>
 
