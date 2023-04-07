@@ -12,13 +12,27 @@
 <body>
     <script defer src="app.js"></script>
 
-    <section class="hidden ">
-        <h1 class="hidden col sfum" style="font-size: 60pt; margin-bottom: 20px;">Edoardo Colella</h1>
-        <h2 class="hidden col sfum" style="text-align: left;">Software Engineer</h2>
+    <div class="hidden " style="min-height: 100vh; -items: center;">
+        <div style="display: flex;
+        place-items: center;
+        justify-content: center;">
+            <a class="hidden sfum padding top" href="#about">About me</a>
+            <a class="hidden sfum padding top" href="#education">Education</a>
+            <a class="hidden sfum padding top" href="#experiences">Experiences</a>
+            <a class="hidden sfum padding top" href="#projects">Projects</a>
+            <a class="hidden sfum padding top" href="#skills">Skills</a>
+            <a class="hidden sfum padding top" href="#contact">Contact</a>
         </div>
-    </section>
+        <div style="display: grid; place-items: center; align-content: center; padding-top:80px;">
+            <h1 class="hidden sfum" style="font-size: 60pt; margin-bottom: 20px;">Edoardo Colella</h1>
+            <h2 class="hidden sfum" style="text-align: left;">Software Engineer</h2>
+        </div>
+    </div>
 
-    <section class="flex">
+    <section >
+        <h2 class="hidden">About me</h2>
+        <a id="about"></a>
+        <div class="flex">
         <div class="col hidden left">
             <img src="images/edoardocolella.jpg" class="images">
         </div>
@@ -29,12 +43,13 @@
                 at the Polytechnic of Turin and in March 2022 I obtained
                 my three-year degree. </p>
             <p class="sfum">So I enrolled in the Computer Engineering course
-                (Software orientation), which I still attend.</p>
+                (Software path), which I still attend.</p>
         </div>
-
+    </div>
     </section>
 
     <section>
+        <a id="education"></a>
         <h2 class="hidden sfum padding">Education</h2>
         <div class="flex">
             <div class="hidden padding col right" style="justify-content: left;">
@@ -55,6 +70,7 @@
     </section>
 
     <section>
+        <a id="experiences"></a>
         <h2 class="hidden sfum">Experiences</h2>
         <div class="flex">
             <div class="hidden col padding left">
@@ -64,10 +80,11 @@
                 <h3 class="sfum">Mu Nu chapter of Eta Kappa Nu</h3>
                 <p class="sfum">President</p>
                 <p class="sfum nomargin">2022 - in progress
-                <p class="sfum nomargin">I administer and supervise the activities of the association on a daily basis.</p>
+                <p class="sfum nomargin">I administer and supervise the activities of the association on a daily basis.
+                </p>
                 <p class="sfum nomargin">With the other members of the Board,</p>
                 <p class="sfum nomargin"></p> I make decisions about future activities and propose new ones.</p>
-                <p class="sfum bold" >Co-manager for the website</p>
+                <p class="sfum bold">Co-manager for the website</p>
                 <p class="sfum nomargin">2021 - 2022</p>
                 <p class="sfum nomargin">I managed both the technical side and the </p>
                 <p class="sfum nomargin">content side of the pages of www.hknpolito.org</p>
@@ -76,30 +93,31 @@
     </section>
 
     <section class="flex">
-            <div class="padding col hidden right" style="padding-left: 20vw; padding-right: 10vw;">
-                <h3 class="sfum">Polytechnic of Turin</h3>
+        <div class="padding col hidden right" style="padding-left: 20vw; padding-right: 10vw;">
+            <h3 class="sfum">Polytechnic of Turin</h3>
 
-                <p class="sfum bold">Teaching assistant</p>
-                <p class="sfum nomargin">Object Oriented Programming Course</p>
-                <p class="sfum nomargin">2023 - in progress</p>
-                </br>
-                <p class="sfum bold">Teaching assistant</p>
-                <p class="sfum nomargin">Computer Science Course</p>
-                <p class="sfum nomargin">2023 - in progress</p>
-                </br>
-                <p class="sfum bold">Teaching assistant</p>
-                <p class="sfum nomargin">Politics and Technique Course</p>
-                <p class="sfum nomargin">2023 - in progress</p>
-            </div>
-            <div class="hidden col padding right">
-                <img src="images/experiences2.jpg" class="images">
-            </div>
+            <p class="sfum bold">Teaching assistant</p>
+            <p class="sfum nomargin">Object Oriented Programming Course</p>
+            <p class="sfum nomargin">2023 - in progress</p>
+            </br>
+            <p class="sfum bold">Teaching assistant</p>
+            <p class="sfum nomargin">Computer Science Course</p>
+            <p class="sfum nomargin">2023 - in progress</p>
+            </br>
+            <p class="sfum bold">Teaching assistant</p>
+            <p class="sfum nomargin">Politics and Technique Course</p>
+            <p class="sfum nomargin">2023 - in progress</p>
+        </div>
+        <div class="hidden col padding right">
+            <img src="images/experiences2.jpg" class="images">
+        </div>
         </div>
 
 
     </section>
 
     <section>
+        <a id="projects"></a>
         <h2 class="hidden">Projects</h2>
         <div class="flex">
             <div class="col hidden padding left">
@@ -122,7 +140,10 @@
         </div>
     </section>
 
-    <section class="flex ">
+    <section>
+        <h2 class="hidden">Skills</h2>
+        <div class="flex">
+        <a id="skills"></a>
         <div class="padding col hidden right" style="justify-content: left;">
             <p class="sfum nomargin">Knowledge of algorithms and data structures in C language</p>
             <p class="sfum nomargin">Mastery of the object-oriented programming paradigm in the Java language</p>
@@ -134,9 +155,13 @@
         <div class="hidden col padding right">
             <img src="images/skills1.jpg" class="images">
         </div>
+    </div>
     </section>
 
-    <section >
+    <div style="display: grid;
+    place-items: center;
+    align-content: center;">
+        <a id="contacts"></a>
         <h2 class="hidden ">Contacts</h2>
         <div class="logos">
             <div class="logo hidden col left">
@@ -163,12 +188,12 @@
                 </a>
             </div>
         </div>
-        
-    <p class="hidden sfum">
-        This website does not collect any personal data - © 2023 Copy: edoardocolella.it
-    </p>
 
-    </section>
+        <p class="hidden sfum">
+            This website does not collect any personal data - © 2023 Copyright: edoardocolella.it
+        </p>
+
+    </div>
 
 </body>
 
