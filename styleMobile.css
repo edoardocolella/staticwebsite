@@ -204,10 +204,12 @@
 
     #experiences1{
         font-size: 2.4vh;
+        margin-bottom: 20vh;
     }
 
     #experiences2{
         font-size: 2.4vh;
+        margin-top: 0;
     }
 
     #skills{
