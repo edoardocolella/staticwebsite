@@ -79,6 +79,10 @@ body {
         display: flex;
     }
 
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .navbar {
         place-items: center;
@@ -170,6 +174,8 @@ body {
         /* 5px rounded corners */
         padding: 1rem;
         margin: 0 0.5rem;
+        margin-bottom: 1rem;
+
     }
 
     /* On mouse-over, add a deeper shadow */
