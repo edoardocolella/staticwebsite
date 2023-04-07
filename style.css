@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
 
 body {
-    background-color: #131316;
+    background-color: #06191d;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     padding: 0;
+    margin: 0;
+}
+
+.sfum {
+    background: linear-gradient(83deg, #ffffff,#7d7777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.nomargin {
     margin: 0;
 }
 
@@ -33,7 +48,7 @@ section{
 .hidden {
     opacity: 0;
     filter: blur(5px);
-    transition: all 1.5s;
+    transition: all 1.0s;
     transform: translateX(-100%);
 }
 
@@ -43,12 +58,12 @@ section{
     transform: translateX(0);
 }
 
-.profile{
-    max-width: 650px;
+.images{
+    max-width: 40vw;
 }
 
 .padding{
-    padding: 2rem;
+    padding: 1.7rem;
 }
 
 .logos{
@@ -56,7 +71,6 @@ section{
 }
 
 .logo{
-    background-color: #131316;
     border-radius: 10px;
     padding: 1rem;
     margin: 0 0.5rem;
@@ -68,13 +82,13 @@ section{
 }
 
 .col:nth-child(2){
-    transition-delay: 200ms;
+    transition-delay: 100ms;
 }
 
 .col:nth-child(3){
-    transition-delay: 400ms;
+    transition-delay: 200ms;
 }
 
 .col:nth-child(4){
-    transition-delay: 600ms;
+    transition-delay: 300ms;
 }
