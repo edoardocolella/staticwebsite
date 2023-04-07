@@ -97,19 +97,19 @@
         transition: all 1.0s;
     }
 
-    .left {
+    .leftTranslate {
         transform: translateX(-100%);
     }
 
-    .right {
+    .rightTranslate {
         transform: translateX(100%);
     }
 
-    .top {
+    .topTranslate {
         transform: translateY(-100%);
     }
 
-    .bottom {
+    .bottomTranslate {
         transform: translateY(100%);
     }
 
@@ -191,5 +191,31 @@
         display: block;
   margin-left: auto;
   margin-right: auto;
+    }
+
+    #aboutme{
+        font-size: 2.4vh;
+    }
+
+    #education{
+        font-size: 2.4vh;
+    }
+
+    #experiences1{
+        font-size: 2.4vh;
+    }
+
+    #experiences2{
+        font-size: 2.4vh;
+    }
+
+    #skills{
+        font-size: 2.4vh;
+    }
+
+    .text{
+        white-space: pre-line; 
+        margin: auto;
+        width: 80%;
     }
 }

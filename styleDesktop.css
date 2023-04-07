@@ -64,17 +64,16 @@ body {
         justify-content: left;
     }
 
-    section {
+    .contacts, section {
         display: grid;
         place-items: center;
         align-content: center;
-        min-height: 100vh;
     }
 
-    .contacts {
-        display: grid;
-        place-items: center;
-        align-content: center;
+    section{
+        min-height: 100vh;
+        width:100%;
+        justify-content: center;
     }
 
     .navbar, .cards, .flex {
@@ -94,30 +93,43 @@ body {
         transition: all 1.0s;
     }
 
-    .left {
+    .leftTranslate {
         transform: translateX(-100%);
     }
 
-    .right {
+    .rightTranslate {
         transform: translateX(100%);
     }
 
-    .top {
+    .topTranslate {
         transform: translateY(-100%);
     }
 
-    .bottom {
+    .bottomTranslate {
         transform: translateY(100%);
     }
 
+    .column {
+        flex: 50%;
+        width: 48vw;
+        height: auto;
+        padding: 20px;
+    }
     .show {
         opacity: 1;
         filter: blur(0);
         transform: translateX(0);
     }
 
-    img {
-        max-width: 40vw;
+    .text{
+        white-space: pre-line; 
+        margin: auto;
+        width: 60%;
+    }
+
+    img{
+        width: 50vw;
+        height: auto;
     }
 
     .padding {
@@ -176,4 +188,25 @@ body {
         text-decoration: none;
         color: #06191d;
     }
+
+    #aboutme{
+        font-size: 4vh;
+    }
+
+    #education{
+        font-size: 4vh;
+    }
+
+    #experiences1{
+        font-size: 3vh;
+    }
+
+    #experiences2{
+        font-size: 4vh;
+    }
+
+    #skills{
+        font-size: 3vh;
+    }
+
 }
