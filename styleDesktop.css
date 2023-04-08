@@ -143,25 +143,6 @@
     .box:hover .imgBx h2{
         opacity: 1;
     }
-    .box:before{
-        content: '';
-        position: absolute;
-        top: -2px;
-        left: -2px;
-        right: -2px;
-        bottom: -2px;
-        z-index: -1;
-    }
-    .box:after{
-        content: '';
-        position: absolute;
-        top: -2px;
-        left: -2px;
-        right: -2px;
-        bottom: -2px;
-        z-index: -2;
-        filter: blur(40px);
-    }
     
     .box .content{
         position: absolute;

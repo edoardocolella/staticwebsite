@@ -191,3 +191,23 @@ a {
 .box:nth-child(5):after{
     background: linear-gradient(235deg, #89ff00, #010615, #fbff00);
 }
+
+.box:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+}
+.box:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -2;
+    filter: blur(16px);
+}
