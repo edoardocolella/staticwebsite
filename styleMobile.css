@@ -194,7 +194,13 @@
     }
 
     .box .content h2 a{
-        width: 0;
-        pointer-events: none;
+        pointer-events: initial;
+        text-decoration: underline;
+        color: #908d8d;
     }
+
+    .box .content:hover h2 a{
+        pointer-events: all;
+    }
+
 }
