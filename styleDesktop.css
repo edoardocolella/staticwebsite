@@ -13,15 +13,22 @@
     }
 
     .headerText {
+        width: 100%;
         display: grid;
         place-items: center;
         align-content: center;
-        padding-top: 80px;
+        padding-bottom: 200px;
+        position: absolute;
+        bottom: 0;
     }
 
     .navbar {
         place-items: center;
         justify-content: center;
+    }
+
+    .navbar a {
+        font-weight: 600;
     }
 
 

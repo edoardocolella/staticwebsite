@@ -48,7 +48,7 @@ body {
 }
 
 .col:nth-child(2) {
-    transition-delay: 120ms;
+    transition-delay: 100ms;
 }
 
 .col:nth-child(3) {
