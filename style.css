@@ -174,23 +174,19 @@ a {
 
 .box:nth-child(2):before, 
 .box:nth-child(2):after{
-    background: linear-gradient(235deg, #89ff00, #010615, #fbff00);
+    background: linear-gradient(235deg, #fbff00, #010615, #89ff00);
 }
 
 .box:nth-child(3):before, 
 .box:nth-child(3):after{
-    background: linear-gradient(235deg, #772aff, #010615, #2196f3);
+    background: linear-gradient(235deg, #2196f3, #010615, #fbff00);
 }
 
 .box:nth-child(4):before, 
 .box:nth-child(4):after{
-    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+    background: linear-gradient(235deg, #772aff, #010615, #2196f3);
 }
 
-.box:nth-child(5):before, 
-.box:nth-child(5):after{
-    background: linear-gradient(235deg, #89ff00, #010615, #fbff00);
-}
 
 .box:before{
     content: '';
