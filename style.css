@@ -67,6 +67,10 @@ body {
     transition-delay: 500ms;
 }
 
+.col:nth-child(7) {
+    transition-delay: 600ms;
+}
+
 .topTranslate {
     transform: translateY(-100%);
 }
