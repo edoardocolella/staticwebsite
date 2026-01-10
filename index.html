@@ -3,238 +3,173 @@
 
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Edoardo Colella - Software Engineer</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Edoardo Colella's personal website" />
-    <meta name="keywords" content="Edoardo Colella, IEEE, HKN, Polytechnic of Turin, Politecnico di Torino, Software Enigneer, Bachelor, Master">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edoardo Colella – Software Engineer</title>
 
-<!--
-   
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style768Max.css">
-    <link rel="stylesheet" href="style1024Max.css">
-    <link rel="stylesheet" href="style1200Max.css">
-    <link rel="stylesheet" href="styleNoCap.css">
-    
 </head>
 <body>
-    <script defer src="app.js"></script>
-    <div id="containSnap">
-        <div id="scrollpath"></div>
-        <div id="progressbar"></div>
-        <article>
-            <header class="hidden">
 
-                <div class="navbar">
-                    <a class="hidden sfum padding col topTranslate" href="#about">About me</a>
-                    <a class="hidden sfum padding col topTranslate" href="#education">Education</a>
-                    <a class="hidden sfum padding col topTranslate" href="#experiences">Experiences</a>
-                    <a class="hidden sfum padding col topTranslate" href="#projects">Projects</a>
-                    <a class="hidden sfum padding col topTranslate" href="#contacts">Contacts</a>
-                    <a class="hidden sfum padding col topTranslate" href="EdoardoColella.pdf" target="_blank">Resume</a>
-                </div>
+    <!-- HEADER WITH NAV -->
+    <header>
+        <div class="container header-content">
+            <h1 class="logo">Edoardo Colella</h1>
+            <nav class="nav">
+                <a href="#intro">Intro</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+            </nav>
+        </div>
+    </header>
 
-                <div class="headerText" >
-                    <div style="max-width: 70%; justify-content: left;">
-                    <h1 class="hidden sfum" >Edoardo Colella</h1>
-                    <h2 class="hidden sfum">Software Engineer</h2>
-                    </div>
-                </div>
-
-            </header>
-        </article>
-        <article>
-            <h2 class="hidden secHeader sfum">About me</h2>
-            <a id="about"></a>
-            <div class="flex rightflex">
-                <div class="col hidden column img">
-                    <img src="images/edoardocolella.jpg" alt="Edoardo Colella">
-                </div>
-                <div id="aboutme" class="col hidden sfum  column text">Hello, I am Edoardo Colella.
-                    From a young age I have always been passionate about STEM disciplines and in particular computer science, writing my first lines of code in Python 2 at the age of 12.
-                    Since 2018 I have been attending the Bachelor of Science in Computer Engineering program at the Polytechnic University of Turin and in March 2022 I graduated.
-                    I then enrolled in the master's degree program in Computer Engineering (Software pathway), which I am still attending.
-                    In 2021 I became a member of the Mu Nu Chapter of IEEE-HKN, and in 2022 I was elected president of the association.</div>
+    <!-- INTRO -->
+    <section id="intro" class="section intro reveal">
+        <div class="container intro-grid">
+            <!-- PHOTO -->
+            <div class="intro-photo">
+                <img src="images/edoardocolella.jpg" alt="Edoardo Colella">
             </div>
-        </article>
 
+            <!-- TEXT + RESUME + SOCIALS -->
+            <div class="intro-text">
+                <h2>Hello, I'm Edoardo</h2>
+                <p>Software Engineer passionate about building scalable backend systems and high-performance applications. Currently at Amazon working on DynamoDB metadata systems. I enjoy solving complex problems and creating efficient solutions that make an impact.</p>
+                <a href="EdoardoColella.pdf" target="_blank" class="resume-btn">View Resume</a>
 
-        
-        <article>
-            <a id="education"></a>
-            <h2 class="hidden sfum secHeader">Education</h2>
-            <div class="flex leftflex">
-                <div id="education" class="hidden  column sfum text"><b>Master of Science in Computer Engineering</b>
-                    Polytechnic of Turin
-                    2022 - current
-                    <b>Bachelor of Science in Computer Engineering</b>
-                    Polytechnic of Turin
-                    2018 - 2022
-                    <b>Scientific High School diploma</b>
-                    Liceo Scientifico G.Rummo (Benevento)
-                    2014 - 2018
-                </div>
-                <div class="hidden  column">
-                    <img src="images/education.jpg" alt="Polytechnic of Turin">
+                <div class="social-links">
+                    <a href="mailto:edoardocolella.it@gmail.com" target="_blank"><img src="images/logo_email.png" alt="Email"></a>
+                    <a href="https://github.com/edoardocolella" target="_blank"><img src="images/logo_github.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/edoardo-colella-inf/" target="_blank"><img src="images/logo_linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://t.me/edoardocolella" target="_blank"><img src="images/logo_telegram.png" alt="Telegram"></a>
+                    <a href="https://www.instagram.com/edoardocolella/" target="_blank"><img src="images/logo_instagram.png" alt="Instagram"></a>
                 </div>
             </div>
-        </article>
+        </div>
+    </section>
 
-        <article>
-            <a id="experiences"></a>
-            <h2 class="hidden sfum secHeader">Experiences</h2>
-            <div class="flex rightflex">
-                <div class="hidden column">
-                    <img src="images/experiences1.jpg" alt="Mu Nu Chapter of IEEE-HKN, HKNPolito">
+    <main>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section reveal">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="card">
+                    <h3>Amazon – Software Development Engineer</h3>
+                    <p class="location">Dublin, Ireland | Feb 2025 – Present</p>
+                    <ul>
+                        <li>Contributed to the design and implementation of a <strong>novel caching solution</strong> for DynamoDB metadata systems.</li>
+                        <li><strong>Led an operational excellence initiative</strong> reducing tickets by &gt;50% via root cause analysis and automation.</li>
+                        <li>Active member of the high-severity on-call rotation.</li>
+                        <li>Key contributor to the secrets management system migration.</li>
+                        <li>Launched a metadata backup access system for internal customers, enabling cost savings.</li>
+                    </ul>
                 </div>
-                <div id="experiences1" class="hidden column text sfum"><h4>Mu Nu chapter of Eta Kappa Nu</h4>
-                    <b>Advisor</b>
-                    October 2023 - current
-                    <b>President</b>
-                    October 2022 - September 2023
-                    I administer and supervise the activities of the association on a daily basis.
-                    With the other members of the Board, I make decisions about future activities and propose new ones.
-                    <b>Co-manager for the website</b>
-                    2021 - 2022
-                    I managed both the technical side and the content side of the pages of www.hknpolito.org
+
+                <div class="card">
+                    <h3>Alten Technologies (Amadeus) – Software Engineer</h3>
+                    <p class="location">Sophia-Antipolis, France | Apr 2024 – Jan 2025</p>
+                    <ul>
+                        <li>Developed and maintained high-performance C++ code for Flex Pricer.</li>
+                        <li>Built internal tools and libraries to improve developer productivity.</li>
+                    </ul>
                 </div>
             </div>
-        </article>
+        </section>
 
-        <article>
-            <h2 class="secHeader"></h2>
-            <div class="flex leftflex">
-                <div id="experiences2" class=" column hidden text"><h4>Polytechnic of Turin</h4>
-                    <b>Teaching assistant</b>
-                    Operating Systems Course
-                    October 2023 - January 2024
-                    <b>Teaching assistant</b>
-                    Human Computer Interaction Course
-                    October 2023 - January 2024
-                    <b>Teaching assistant</b>
-                    Object Oriented Programming Course
-                    March 2023 - June 2023
-                    <b>Teaching assistant</b>
-                    Computer Science Course
-                    October 2022 - January 2023
+        <!-- EDUCATION -->
+        <section id="education" class="section reveal">
+            <div class="container">
+                <h2>Education</h2>
+
+                <div class="card">
+                    <h3>M.Sc in Computer Engineering – Politecnico di Torino</h3>
+                    <p class="location">Apr 2024 | 110L/110</p>
+                    <p>Focus on system programming, backend, and cloud computing. President of IEEE-HKN Mu Nu Chapter. Final project: IFC file import module for Edilclima EC700 (C++ & ODA SDK).</p>
                 </div>
-                <div class="hidden column ">
-                    <img src="images/experiences2.jpg" alt="Teaching assistant">
+
+                <div class="card">
+                    <h3>B.Sc in Computer Engineering – Politecnico di Torino</h3>
+                    <p class="location">Mar 2022 | 100/110</p>
+                    <p>Strong foundation in advanced programming and problem solving. Student Teaching Assistant supporting labs in Java, Python, and core programming concepts.</p>
                 </div>
             </div>
-        </article>
+        </section>
 
-        <article>
-            <a id="projects"></a>
-            <h2 class="hidden secHeader">Projects</h2>
-            <div class="prova cards hidden">
-                <div class="box">
-                    <div class="projectHeader">
-                        <h2>LiveArtVR</h2>
-                    </div>
-                    <div class="content">
-                        <h2>Unity C# VR<br>
-                            <span>LiveArtVR is a software made for Human Computer Interaction course. It allows users to visit museums through VR technology</span>
-                        </h2>
-                    </div>
+        <!-- PROJECTS -->
+        <section id="projects" class="section reveal">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <div class="card project-card">
+                    <h3>P-way Graph Partitioning</h3>
+                    <p>C++ implementation of the Multilevel-KL algorithm. <a href="https://github.com/edoardocolella/p-way-graph-partitioning" target="_blank">Repository</a></p>
                 </div>
-                <div class="box">
-                    <div class="projectHeader">
-                        <h2>HikeFIVE!</h2>
-                    </div>
-                    <div class="content">
-                        <h2>React Javascript Express<br>
-                            <span>Application that allows hikers to manage their experiences and upload their records</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="projectHeader">
-                        <h2>StudyPlan</h2>
-                    </div>
-                    <div class="content">
-                        <h2>React Javascript Express<br>
-                            <span>Simple web app for the Web Application I course. It allows students to prepare their own Study Plan for enrollment</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="projectHeader">
-                        <h2>SportTime</h2>
-                    </div>
-                    <div class="content">
-                        <h2>Android Kotlin Firebase<br><span>Application that supports a Sport Association in managing the reservations of a set of playing courts.</span></h2>
-                    </div>
+
+                <div class="card project-card">
+                    <h3>Ticketing Service</h3>
+                    <p>Kotlin/Spring microservice backend for ticket management. <a href="https://github.com/edoardocolella/ticketing_service" target="_blank">Repository</a></p>
                 </div>
             </div>
-        </article>
+        </section>
 
-        <article style="position: relative;">
-            <a id="contacts"></a>
-            <h2 class="hidden secHeader">Contacts</h2>
-            <address>
-            <div class="flex contacts">
-                <div class="logo hidden col ">
-                    <a href="mailto:edoardocolella.it@gmail.com" target="_blank">
-                        <img src="images/logo_email.png" class="icon" alt="email icon">
-                    </a>
+        <!-- SKILLS -->
+        <section id="skills" class="section reveal">
+            <div class="container">
+                <h2>Skills</h2>
 
-                </div>
-                <div class="logo hidden col ">
-                    <a href="https://www.instagram.com/edoardocolella99/" target="_blank">
-                        <img src="images/logo_instagram.png" class="icon" alt="instagram icon">
-                    </a>
-
-                </div>
-                <div class="logo hidden col ">
-                    <a href="https://www.linkedin.com/in/edoardo-colella-inf/" target="_blank">
-                        <img src="images/logo_linkedin.png" class="icon" alt="linkedin icon">
-                    </a>
-
-                </div>
-                <div class="logo hidden col ">
-                    <a href="https://t.me/edoardocolella" target="_blank">
-                        <img src="images/logo_telegram.png" class="icon" alt="telegram icon">
-                    </a>
-                </div>
-                <div class="logo hidden col ">
-                    <a href="https://github.com/edoardocolella" target="_blank">
-                        <img src="images/logo_github.png" class="icon" alt="github icon">
-                    </a>
+                <div class="skills-grid">
+                    <span class="skill">C++</span>
+                    <span class="skill">Java</span>
+                    <span class="skill">Kotlin</span>
+                    <span class="skill">Python</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">Distributed Systems</span>
+                    <span class="skill">Performance Optimization</span>
+                    <span class="skill">Cloud Computing</span>
+                    <span class="skill">AWS</span>
+                    <span class="skill">System Programming</span>
+                    <span class="skill">Spring Framework</span>
+                    <span class="skill">Ownership</span>
+                    <span class="skill">Teamwork</span>
+                    <span class="skill">Communication</span>
+                    <span class="skill">Leadership</span>
+                    <span class="skill">Problem Solving</span>
+                    <span class="skill">Adaptability</span>
+                    <span class="skill">Agile</span>
                 </div>
             </div>
-            <div style="position: absolute; bottom: 0; width: 100%;">
-                <p class="hidden sfum bottomTranslate padding" style="text-align: center; ">
-                    This website does not collect personal data
-                    © <script>document.write(new Date().getFullYear())</script>
-                    Copyright: edoardocolella.it
-                </p>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section reveal">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="cert-grid">
+                    <a href="https://www.credly.com/badges/a11f11cc-f39c-4762-be4e-0ab363fcae2c/public_url" class="cert-link" target="_blank">AWS Cloud Practitioner</a>
+                    <a href="https://www.credly.com/badges/b3522d19-5aa7-4bcd-8ae5-e255fafce4d1/public_url" class="cert-link" target="_blank">MongoDB Associate Developer</a>
+                    <a href="https://www.credly.com/badges/df5ef570-205a-4214-aa5e-6172351a61f2/public_url" class="cert-link" target="_blank">GitHub Foundations</a>
+                    <a href="https://www.credly.com/badges/2b0c912a-4987-415f-a975-8a1a397a05a5/public_url" class="cert-link" target="_blank">Certified SAFe® 6 Practitioner</a>
+                </div>
             </div>
-            </address>
-        </article>
+        </section>
 
+    </main>
 
-
-    </div>
-
+    <script src="script.js"></script>
 </body>
 
--->
-
-</head>
-
-<article>
-    <h2 class="hidden secHeader">Work in Progress</h2>
-    <div class="flex centerflex">
-        <div class="col hidden sfum column text">
-            <h4>This page is currently under construction.</h4>
-            <p>Please check back later for updates.</p>
-        </div>
-    </div>
-</article>
-
 </html>
+
+
