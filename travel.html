@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edoardo Colella - Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <a href="index.html"><h1>Edoardo Colella</h1></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="travel.html">Travel</a>
+        </nav>
+    </div>
+</header>
+
+<div class="section container reveal-visible" >
+    <h2>Travel Adventures</h2>
+    <p>Here’s a collection of my trips, organized by year.</p>
+
+    <!-- ======================
+         YEAR TEMPLATE
+         Duplicate this block for each year
+         ====================== -->
+    <h3>2025</h3>
+    <div class="travel-grid">
+        <!-- Trip Template: copy this block for each trip -->
+        <div class="travel-card">
+            <h4>Munich - January 2025</h4>
+            <div class="travel-photo">
+                <img src="images/munich_jan_2025.jpg" alt="Munich January 2025">
+            </div>
+            <p>New Years Eve in Munich. It was warmer than expected</p>
+        </div>
+
+        <div class="travel-card">
+            <h4>Sweden/Denmark - April 2025</h4>
+            <div class="travel-photo">
+                <img src="images/sweden_april_2025.jpg" alt="Sweden/Denmark April 2025">
+            </div>
+            <p>This is a picture of me and my friends, Angelo and Alessio, visiting the Nasoteket in Lund, the most important museum in Europe.</p>
+        </div>
+
+        <div class="travel-card">
+            <h4>Portugal - June 2025</h4>
+            <div class="travel-photo">
+                <img src="images/portugal_june_2025.jpg" alt="Portugal June 2025">
+            </div>
+            <p>One week trip visiting Lisbon, Porto and many other smaller places.</br>Give me more Pastels de nata!</p>
+        </div>
+
+        <div class="travel-card">
+            <h4>Barcelona - September 2025</h4>
+            <div class="travel-photo">
+                <img src="images/barcelona_september_2025.JPG" alt="Barcelona September 2025">
+            </div>
+            <p>In 2002 I visited it already and got a scar on my forehead.</br>Nice to be back</p>
+        </div>
+
+        <div class="travel-card">
+            <h4>Iceland - October 2025</h4>
+            <div class="travel-photo">
+                <img src="images/iceland_october_2025.jpg" alt="Iceland October 2025">
+            </div>
+            <p>Just wow</p>
+        </div>
+        <!-- End Trip Template -->
+    </div>
+
+    <!-- ======================
+         ADD NEW YEAR
+         Duplicate this block for new years
+         ====================== -->
+    <!--
+    <h3>2026</h3>
+    <div class="travel-grid">
+        <div class="travel-card">
+            <h4>City - Month 2026</h4>
+            <div class="travel-photo">
+                <img src="images/city_month2026.jpg" alt="City Month 2026">
+            </div>
+            <p>Description of the trip in 2026.</p>
+        </div>
+        ... more trips ...
+    </div>
+    -->
+
+</div>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="" alt="Expanded image">
+</div>
+
+<script>
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.querySelector('.lightbox-img');
+const closeBtn = document.querySelector('.lightbox-close');
+
+document.querySelectorAll('.travel-photo img').forEach(img => {
+    img.addEventListener('click', () => {
+        lightbox.style.display = 'block';
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+    });
+});
+
+closeBtn.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+});
+
+// close when clicking outside the image
+lightbox.addEventListener('click', e => {
+    if (e.target === lightbox) {
+        lightbox.style.display = 'none';
+    }
+});
+</script>
+
+</body>
+</html>
+
